@@ -1,0 +1,124 @@
+/* Navbar.css */
+
+/* Apply Poppins font to the entire document */
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Center vertically */
+  padding: 5px;
+  background-color: #0d0d0e;
+  color: #fff;
+  border-bottom: 3px solid purple;
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-left,
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right{
+  margin-right: 20px;
+}
+
+.navbar-link {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+}
+
+.brandimg {
+  width: 50px; /* Fixed width for the brand image */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+  .navbar {
+      flex-direction: column; /* Stack items vertically */
+      text-align: center; /* Center-align text */
+      padding: 15px;
+  }
+
+  .navbar-brand {
+      margin-bottom: 10px;
+  }
+
+  .navbar-left,
+  .navbar-right {
+      width: 100%; /* Full width for the sections */
+      justify-content: center;
+  }
+
+  .navbar-link {
+      margin: 10px; /* Add spacing around each navigation link */
+  }
+
+  .brandimg {
+      width: 60px; /* Adjust brand image size for smaller screens */
+  }
+}
+
+/* Media Query for smaller screens (tablets) */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Stack items vertically */
+    text-align: center; /* Center-align text */
+    padding: 15px;
+  }
+
+  .navbar-brand {
+    margin-bottom: 10px;
+  }
+
+  .navbar-left,
+  .navbar-right {
+    width: 100%; /* Full width for the sections */
+    justify-content: center;
+  }
+
+  .navbar-link {
+    margin: 10px; /* Add spacing around each navigation link */
+  }
+
+  .brandimg {
+    width: 60px; /* Adjust brand image size for smaller screens */
+  }
+}
+
+/* Media Query for phone screens */
+@media (max-width: 480px) {
+  .navbar {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem; /* Decrease font size for smaller screens */
+  }
+
+  .navbar-link {
+    font-size: 0.9rem; /* Decrease font size for navigation links */
+  }
+
+  .brandimg {
+    width: 50px; /* Further decrease brand image size */
+  }
+}

@@ -1,0 +1,41 @@
+/* Dashboard.css */
+
+.dashboard {
+  display: flex;
+  flex-wrap: wrap; /* Allow flex items to wrap to new line */
+  justify-content: center;
+  align-items: center;
+  background-color: #e9e2e2;
+  min-height: 90vh; /* Set minimum height to ensure content is fully visible */
+  padding: 10px; /* Add padding around the dashboard */
+}
+
+.dashimg{
+  width: 80px;
+  height: auto;
+}
+
+.dashboard-box {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px; /* Adjust padding for smaller screens */
+  width: calc(50% - 20px); /* Take up 50% of the container width with spacing */
+  max-width: 300px; /* Limit maximum width */
+  min-width: 200px; /* Set minimum width */
+  height: 200px; /* Adjust height for smaller screens */
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+  .dashboard-box {
+      width: calc(100% - 20px); /* Take up 100% of the container width with spacing */
+      max-width: none; /* Remove maximum width limit */
+      height: auto; /* Allow height to adjust based on content */
+  }
+}

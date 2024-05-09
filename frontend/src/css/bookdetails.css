@@ -1,0 +1,104 @@
+/* Custom Book Details Container */
+.custom-book-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  /* Custom Book Details */
+  .custom-details {
+    display: flex;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-decoration: none;
+  }
+  
+  /* Custom Book Image Container */
+  .custom-book-image-container {
+    padding-top: 20%;
+    padding: 1.5%;
+    flex: 0 0 300px; /* Fixed width for the book image */
+  }
+
+  .custom-book-image-container img{
+    box-shadow: 0px 0px 8px lightgray;
+    border-radius: 10px;
+  }
+
+
+  .custom-book-image {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover;
+  }
+  
+  /* Custom Book Info */
+  .custom-book-info {
+    flex: 1;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  .custom-book-info h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+  
+  .custom-book-info p {
+    font-size: 16px;
+    line-height: 1.6; /* Adjust line height for readability */
+    margin-bottom: 12px;
+  }
+  
+  /* Custom Book Actions */
+  .custom-book-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .custom-book-actions button {
+    background-color: #4fafef;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-book-actions button:hover {
+    background-color: #2980b9;
+  }
+  
+  .custom-btn-link {
+    text-decoration: none;
+    color: #fff;
+    
+  }
+
+  .book-details{
+    color: black;
+    text-decoration: none;
+  }
+
+  .book-details Link{
+    text-decoration: none;
+  }
+
+  .Back-button button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+  
